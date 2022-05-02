@@ -10,13 +10,13 @@ const firebaseApp = initializeApp({
   // storageBucket: process.env.REACT_APP_STORAGEBUCKET,
   // messagingSenderId: process.env.REACT_APP_MESSAGINGSENDERID,
   // appId: process.env.REACT_APP_APPID,
-  apiKey: "AIzaSyD_rqs-5yJBq_o9KaD--JWHwDa11iqdgdQ",
-  authDomain: "place-firebase.firebaseapp.com",
-  databaseURL: "https://place-firebase-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "place-firebase",
-  storageBucket: "place-firebase.appspot.com",
-  messagingSenderId: "1046026137375",
-  appId: "1:1046026137375:web:5080272e083cc04af58a2a"
+  apiKey: "AIzaSyD4r0jad7ygncgsC-8dmGltDwQwkt9gUwg",
+  authDomain: "placetest-f71e3.firebaseapp.com",
+  databaseURL: "https://placetest-f71e3-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "placetest-f71e3",
+  storageBucket: "placetest-f71e3.appspot.com",
+  messagingSenderId: "768069945327",
+  appId: "1:768069945327:web:995227b8029f96b26ed81a"
 });
 
 const realtime = getDatabase(firebaseApp);
